@@ -4,6 +4,9 @@ plugins {
 
 android {
     namespace = "com.example.tess"
+    buildFeatures {
+        viewBinding = true
+    }
     compileSdk {
         version = release(37)
     }

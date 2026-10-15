@@ -5,15 +5,59 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_margin="20dp">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/tenkhoan"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:hint="Tên khoản chi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389" />
+
+    <EditText
+        android:id="@+id/sotien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="Số tiền"/>
+
+    <EditText
+        android:id="@+id/ghichu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604"
+        tools:layout_editor_absoluteX="0dp"
+        android:hint="Ghi chú"/>
+
+    <Button
+        android:id="@+id/btnthemkhoanchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711"
+        tools:layout_editor_absoluteX="0dp"
+        android:hint="Thêm khoản chi"/>
+
+    <Button
+        android:id="@+id/bntxemchitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817"
+        tools:layout_editor_absoluteX="16dp"
+        android:hint="Xem chi tiết"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
