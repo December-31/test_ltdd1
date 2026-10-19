@@ -9,18 +9,24 @@
     <TextView
         android:id="@+id/hienthichitiet"
         android:layout_width="382dp"
-        android:layout_height="39dp"
+        android:layout_height="40dp"
+        android:background="#E05454"
+        android:backgroundTint="#F6F6F6"
+        android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4" />
-
+        
     <TextView
         android:id="@+id/hienst"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
+        android:background="#E05454"
+        android:backgroundTint="#F6F6F6"
+        android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,7 +34,10 @@
     <TextView
         android:id="@+id/hiengc"
         android:layout_width="354dp"
-        android:layout_height="36dp"
+        android:layout_height="40dp"
+        android:background="#E05454"
+        android:backgroundTint="#F6F6F6"
+        android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.31"
